@@ -39,3 +39,30 @@ Atualmente o conjunto de dados utilizado neste projeto inclui as seguintes colun
 —User_Score (Pontuação do usuário) (máximo de 10)
 
 —Classificação (ESRB)
+
+## Arquitetura e Tecnologias Utilizadas
+
+Este projeto segue princípios de **arquitetura modular**, garantindo escalabilidade e reuso eficiente de código. A estrutura adota uma abordagem **camada por camada**, separando **dados, lógica de negócio e visualização**.
+
+🔹 **Camada de Dados**: Tratamento e preparação dos dados com `Pandas` e `NumPy`.  
+🔹 **Camada de Análise**: Aplicação de estatística descritiva, análise exploratória e testes de hipóteses.  
+🔹 **Camada de Modelagem**: Implementação de técnicas de aprendizado de máquina para previsão de vendas.  
+🔹 **Camada de Apresentação**: Geração de relatórios gráficos e dashboards interativos.
+
+As principais tecnologias e bibliotecas utilizadas incluem:
+
+- **Python 3.8+** – Linguagem base para análise e processamento de dados.
+- **Pandas / NumPy** – Manipulação e tratamento de dados estruturados.
+- **Matplotlib / Seaborn** – Criação de visualizações gráficas avançadas.
+- **Scikit-Learn** – Modelos de machine learning para análise preditiva.
+- **Jupyter Notebook** – Desenvolvimento e apresentação de insights.
+
+---
+
+## Execução do Projeto
+
+### 🔧 Pré-requisitos
+Certifique-se de que possui o **Python 3.8+** instalado em sua máquina. Em seguida, instale as dependências do projeto utilizando:
+
+```bash
+pip install -r requirements.txt
